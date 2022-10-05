@@ -1,0 +1,16 @@
+{
+    "name": "iwangr/wprovider",
+    "description": "微服务商",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iwangr\\Wprovider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "微服务商"
+        }
+    ],
+    "require": {}
+}
