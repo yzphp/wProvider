@@ -1,2 +1,2 @@
 # wProvider
-# composer require iwangr/wprovider
+composer require iwangr/wprovider
