@@ -1,9 +1,11 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Base;
 
 //支付操作：jsapi native，app 小程序 h5  ，以及对于的支付拉起，查询订单，退款
 //目前只有，jsapi 支付和小程序支付，查询订单，退款
+use wProvider\lib\Signs;
+
 class Pay
 {
     /**[closingorder 下单-JSAPI支付]
@@ -24,7 +26,7 @@ class Pay
 
         $paramData = [
             //合单商户appid
-            'sp_appid' => Config::$config['XCX']['COMBINE_APPID'],
+            'sp_appid' => Config::$config['APPID'],
             //合单发起方的appid  示例值：wxd678efh567hg6787
             //合单发起方商户号
             'sp_mchid' => Config::$config['MCHID'],
@@ -43,7 +45,7 @@ class Pay
             'description' => $order['description'],
             //商品描述商品简单描述。需传入应用市场上的APP名字-实际商品名称，例如：天天爱消除-游戏充值。示例值：腾讯充值中心-QQ会员充值
             'amount' => [ //子单金额，单位为分。
-                'total' => $order['total_amount'],
+                'total_amount' => $order['total_amount'],
                 'currency' => 'CNY'
             ],
             'settle_info' => [
@@ -69,7 +71,6 @@ class Pay
         ];
 
         $parameters = json_encode($paramData);
-       
         return Signs::_Postresponse($url, $parameters);
     }
     /**[closingorder 合单下单-JSAPI支付]

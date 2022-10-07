@@ -1,9 +1,12 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Base;
 
 //回调数据验证 验证签名 返回数据
-class Notify
+use wProvider\lib\Signs;
+use wProvider\lib\WxPayv3Exception;
+
+class   Notify
 {
 
     /**

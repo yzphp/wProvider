@@ -1,6 +1,6 @@
 <?php
 
-namespace jiujiude\WechatEcommerce;
+namespace wProvider\lib;
 
 /**
  * 微信支付API异常类

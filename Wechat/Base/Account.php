@@ -1,6 +1,9 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Base;
+
+use wProvider\lib\_Request;
+use wProvider\lib\Signs;
 
 /**
  * 分账功能
@@ -22,7 +25,7 @@ class Account
      */
     public function addReceivers($type, $account, $name, $relation_type = 'SERVICE_PROVIDER')
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/receivers/add';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/receivers/add';
         $post = [
             'appid' => Config::$config['COMBINE_APPID'],
             'type' => $type,
@@ -36,7 +39,7 @@ class Account
             $post['encrypted_name'] = Signs::getEncrypt($name);
         }
         $post = json_encode($post, JSON_UNESCAPED_UNICODE);
-        $ret = Signs::_Postresponse($url, $post);
+        $ret = _Request::_Postresponse($url, $post);
         if ($type == 'PERSONAL_OPENID') {
         }
         return $ret;
@@ -50,13 +53,13 @@ class Account
      */
     public function delReceivers($type, $account)
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/receivers/delete';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/receivers/delete';
         $post = [
             'appid' => Config::$config['COMBINE_APPID'],
             'type' => $type,
             'account' => $account
         ];
-        $ret = Signs::_Postresponse($url, $post);
+        $ret = _Request::_Postresponse($url, $post);
         return $ret;
     }
 
@@ -71,7 +74,7 @@ class Account
      */
     public function reqAccount($out_order_no, $transaction_id, $sub_mchid, $receivers, $finish = true)
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/orders';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/orders';
         $post = [
             'appid' => Config::$config['COMBINE_APPID'],
             'out_order_no' => $out_order_no,
@@ -81,7 +84,7 @@ class Account
             'finish' => $finish
         ];
         $post = json_encode($post);
-        $ret = Signs::_Postresponse($url, $post);
+        $ret = _Request::_Postresponse($url, $post);
         return $ret;
     }
 
@@ -93,9 +96,9 @@ class Account
      */
     public function findAccount($out_order_no, $transaction_id, $sub_mchid)
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/orders';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/orders';
         $url .= '?sub_mchid=' . $sub_mchid . '&transaction_id=' . $transaction_id . '&out_order_no=' . $out_order_no;
-        $ret = Signs::_Getresponse($url);
+        $ret = _Request::_Getresponse($url);
         return $ret;
     }
 
@@ -109,14 +112,14 @@ class Account
      */
     public function finishAccount($out_order_no, $transaction_id, $sub_mchid, $description)
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/finish-order';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/finish-order';
         $post = [
             'sub_mchid' => strval($sub_mchid),
             'transaction_id' => $transaction_id,
             'out_order_no' => $out_order_no,
             'description' => $description ?: '分账完结'
         ];
-        $ret = Signs::_Postresponse($url, $post);
+        $ret = _Request::_Postresponse($url, $post);
         return $ret;
     }
 
@@ -141,7 +144,7 @@ class Account
         $amount,
         $description
     ) {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/returnorders';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/return-orders';
         $post = [
             'sub_mchid' => $sub_mchid,
             'order_id' => $order_id,
@@ -152,7 +155,7 @@ class Account
             'description' => $description
         ];
         $post = json_encode($post);
-        $ret = Signs::_Postresponse($url, $post);
+        $ret = _Request::_Postresponse($url, $post);
         return $ret;
     }
 
@@ -165,13 +168,13 @@ class Account
      */
     public function findreturnAccount($sub_mchid, $order_id = '', $out_order_no = '', $out_return_no)
     {
-        $url = 'https://api.mch.weixin.qq.com/v3/ecommerce/profitsharing/returnorders';
+        $url = 'https://api.mch.weixin.qq.com/v3/profitsharing/return-orders/';
         if ($order_id) {
             $url .= '?sub_mchid=' . $sub_mchid . '&order_id=' . $order_id . '&out_return_no=' . $out_return_no;
         } else {
             $url .= '?sub_mchid=' . $sub_mchid . '&out_order_no=' . $out_order_no . '&out_return_no=' . $out_return_no;
         }
-        $ret = Signs::_Getresponse($url);
+        $ret = _Request::_Getresponse($url);
         return $ret;
     }
 

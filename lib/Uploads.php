@@ -1,6 +1,6 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\lib;
 
 //上传图片，上传物理地址返回 微信的media_id
 class Uploads
@@ -43,7 +43,7 @@ class Uploads
         $out .= "\r\n";
         $out .= file_get_contents($filename) . "\r\n";
         $out .= "--{$boundary}--\r\n";
-        $r = Signs::_requestPost($url, $out, $header);
+        $r = _Request::_requestPost($url, $out, $header);
 
         return $r;
     }

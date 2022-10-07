@@ -1,21 +1,15 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Ecommerce;
 
 //商户进件 SDK
 //分普通服务商 也就是特约 和 电商收付通的二级商户
+use wProvider\lib\Signs;
+use wProvider\lib\WxPayv3Exception;
+
 class Apply
 {
-    public $applyment_state=[
-        'APPLYMENT_STATE_EDITTING'=>1,
-        'APPLYMENT_STATE_AUDITING'=>2,
-        'APPLYMENT_STATE_REJECTED'=>3,
-        'APPLYMENT_STATE_TO_BE_CONFIRMED'=>4,
-        'APPLYMENT_STATE_TO_BE_SIGNED'=>5,
-        'APPLYMENT_STATE_SIGNING'=>6,
-        'APPLYMENT_STATE_FINISHED'=>7,
-        'APPLYMENT_STATE_CANCELED'=>8,
-    ];
+
     /*****************************************************收付通二级商户进件* */
     /**[applyment 二级商户进件]
      *
@@ -317,8 +311,6 @@ class Apply
         $ret = Signs::_Getresponse($url); //head状态码是204 假如有误 返回存在code
         return $ret;
     }
-
-
 
 
 }

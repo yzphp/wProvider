@@ -1,6 +1,6 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Base;
 
 /**
  * 配置信息

@@ -1,8 +1,11 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Ecommerce;
 
 //查询余额 账单下载
+use wProvider\lib\Signs;
+use wProvider\lib\WxPayv3Exception;
+
 class Bill
 {
     /**

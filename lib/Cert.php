@@ -1,6 +1,6 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\lib;
 
 class Cert
 {
@@ -22,7 +22,7 @@ class Cert
         }
 
         $url = 'https://api.mch.weixin.qq.com/v3/certificates';
-        $r = Signs::_GetCertificates($url);
+        $r = Signs::_Getresponse($url);
         $r = json_decode($r, true);
         if (isset($r['code'])) {
             return $r;

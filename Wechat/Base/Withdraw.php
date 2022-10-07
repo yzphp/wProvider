@@ -1,8 +1,10 @@
 <?php
 
-namespace iwangr\WechatEcommerce;
+namespace wProvider\Base;
 
 //商户提现
+use wProvider\lib\Signs;
+
 class Withdraw
 {
     /**
