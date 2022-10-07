@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Bill.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Bill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Withdraw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Notify.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Notify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Banks.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Banks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Cert.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Cert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Signs.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Signs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Uploads.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Uploads.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/WxPayv3Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/WxPayv3Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cert/apiclient_cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cert/apiclient_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cert/platform_serial_no.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/ecommerce.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/index.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Fl7gcXR4Bs2Bz3ZxrIe3DRxM8g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wechat/Ecommerce" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Wechat\Ecommerce" />
+      <recent name="D:\wamp64\www\wProvider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Wechat\Ecommerce" />
+      <recent name="D:\wamp64\www\wProvider\lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="" />
+      <created>1665054933417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665054933417</updated>
+      <workItem from="1665054940579" duration="6148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
