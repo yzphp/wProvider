@@ -22,7 +22,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "iwangr\\Wprovider\\": "src/"
+            "lib\\": "lib",
+            "iwangr\\Wprovider\\": "Wechat/"
         }
     }
 }
