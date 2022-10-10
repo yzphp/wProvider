@@ -1,6 +1,6 @@
 <?php
 
-namespace WeOpen\WeMini;
+namespace wProvider\WeOpen\WeMini;
 
 use WeOpen\Contracts\Tools;
 use WeOpen\Contracts\BasicWeChat;

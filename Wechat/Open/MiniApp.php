@@ -1,5 +1,5 @@
 <?php
-namespace WeOpen;
+namespace wProvider\WeOpen;
 
 use WeOpen\Contracts\Tools;
 

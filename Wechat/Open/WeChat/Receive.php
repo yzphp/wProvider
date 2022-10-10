@@ -1,6 +1,6 @@
 <?php
 
-namespace WeOpen\WeChat;
+namespace wProvider\WeOpen\WeChat;
 
 use WeOpen\Contracts\BasicPushEvent;
 

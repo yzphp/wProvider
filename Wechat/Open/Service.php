@@ -1,12 +1,7 @@
 <?php
-namespace WeOpen;
+namespace wProvider\WeOpen;
 
-use WeOpen\Contracts\DataArray;
-use WeOpen\Contracts\Tools;
-use WeOpen\Exceptions\InvalidArgumentException;
-use WeOpen\Exceptions\InvalidResponseException;
-use WeOpen\Contracts\BasicPushEvent;
-use WeOpen\Contracts\DataError;
+
 
 /**
  * 第三方平台支持

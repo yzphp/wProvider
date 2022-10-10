@@ -1,6 +1,6 @@
 <?php
 
-namespace WeOpen\Contracts;
+namespace wProvider\WeOpen\Contracts;
 
 use WeOpen\Exceptions\InvalidArgumentException;
 use WeOpen\Exceptions\InvalidResponseException;

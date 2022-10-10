@@ -1,7 +1,6 @@
 <?php
-namespace WeOpen;
+namespace wProvider\WeOpen;
 
-use WeOpen\Contracts\Tools;
 
 /**
  * 公众号小程序授权支持
