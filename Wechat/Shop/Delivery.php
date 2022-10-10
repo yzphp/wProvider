@@ -5,7 +5,7 @@
  * Date: 2021/9/9
  * Time: 22:33
  */
-namespace WeShop;
+namespace wProvider\WeShop;
 use WeChat\Contracts\BasicWeChat;
 
 class Delivery extends BasicWeChat

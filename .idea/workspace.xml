@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Spu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicPushEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicPushEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeChat.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeChat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/DataArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/DataArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/MyCurlFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/MyCurlFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/Tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/Tools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/MiniApp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/MiniApp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/Custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/Custom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/Receive.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/Receive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Basic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Code.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Code.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Domain.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Domain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Ocr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Ocr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Qrcode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Scheme.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Scheme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Tester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/WxShop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WxShop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +61,7 @@
       <updated>1665054933417</updated>
       <workItem from="1665054940579" duration="6931000" />
       <workItem from="1665199092233" duration="3430000" />
-      <workItem from="1665363353925" duration="1855000" />
+      <workItem from="1665363353925" duration="1967000" />
     </task>
     <servers />
   </component>
