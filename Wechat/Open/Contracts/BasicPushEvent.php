@@ -1,9 +1,22 @@
 <?php
-namespace wProvider\WeOpen\Contracts;
 
-use WeOpen\Exceptions\InvalidArgumentException;
-use WeOpen\Exceptions\InvalidDecryptException;
-use WeOpen\Exceptions\InvalidResponseException;
+// +----------------------------------------------------------------------
+// | WeChatDeveloper
+// +----------------------------------------------------------------------
+// | 版权所有 2014~2022 广州楚才信息科技有限公司 [ http://www.cuci.cc ]
+// +----------------------------------------------------------------------
+// | 官方网站: http://think.ctolog.com
+// +----------------------------------------------------------------------
+// | 开源协议 ( https://mit-license.org )
+// +----------------------------------------------------------------------
+// | github开源项目：https://github.com/zoujingli/WeChatDeveloper
+// +----------------------------------------------------------------------
+
+namespace wProvider\WeChat\Contracts;
+
+use WeChat\Exceptions\InvalidArgumentException;
+use WeChat\Exceptions\InvalidDecryptException;
+use WeChat\Exceptions\InvalidResponseException;
 
 /**
  * 微信通知处理基本类

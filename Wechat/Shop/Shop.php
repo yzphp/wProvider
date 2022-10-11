@@ -6,7 +6,6 @@
  * Time: 22:31
  */
 namespace wProvider\WeShop;
-use WeChat\Contracts\BasicWeChat;
 
 class Shop extends BasicWeChat
 {
