@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Spu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Spu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
       <updated>1665054933417</updated>
       <workItem from="1665054940579" duration="6931000" />
       <workItem from="1665199092233" duration="3430000" />
-      <workItem from="1665363353925" duration="1967000" />
+      <workItem from="1665363353925" duration="3217000" />
     </task>
     <servers />
   </component>

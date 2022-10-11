@@ -34,8 +34,7 @@ class Spu extends BasicWeChat
 
         return $this->httpPostForJson($url, $data);
     }
-    public function update(array $data=[])
-    {
+    public function update(array $data=[]){
         $url = 'https://api.weixin.qq.com/shop/spu/update?access_token=ACCESS_TOKEN';
 
         $this->registerApi($url, __FUNCTION__, func_get_args());
