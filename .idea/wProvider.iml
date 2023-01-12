@@ -2,8 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Common" isTestSource="false" packagePrefix="iwangr\Wprovider\Extends\" />
-      <sourceFolder url="file://$MODULE_DIR$/Wechat" isTestSource="false" packagePrefix="iwangr\Wprovider\Wechat\" />
+      <sourceFolder url="file://$MODULE_DIR$/Common" isTestSource="false" packagePrefix="iwangr\wProvider\Common\" />
+      <sourceFolder url="file://$MODULE_DIR$/Wechat" isTestSource="false" packagePrefix="iwangr\wProvider\Wechat\" />
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" packagePrefix="lib\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />

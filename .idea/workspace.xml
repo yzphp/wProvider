@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1667440501609" duration="594000" />
       <workItem from="1667491645618" duration="590000" />
       <workItem from="1667566211407" duration="589000" />
-      <workItem from="1673545493321" duration="2666000" />
+      <workItem from="1673545493321" duration="3534000" />
     </task>
     <servers />
   </component>
