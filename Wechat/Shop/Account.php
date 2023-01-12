@@ -5,7 +5,8 @@
  * Date: 2021/9/9
  * Time: 22:34
  */
-namespace wProvider\WeShop;
+
+namespace wProvider\WeChat\Shop;
 class Account
 {
     /**

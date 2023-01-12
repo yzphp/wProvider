@@ -5,7 +5,7 @@
  * Date: 2021/9/9
  * Time: 22:32
  */
-namespace wProvider\WeShop;
+namespace wProvider\WeChat\Shop;
 use WeChat\Contracts\BasicWeChat;
 
 class Spu extends BasicWeChat

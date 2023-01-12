@@ -2,18 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicAliPay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWePay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeWork.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Exceptions/TrackingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Traces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/DetectorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/Kuaidi100.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/Kuaidiniao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/Kuaidiwang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/TrackerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Trackers/TrackerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Express/Waybill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Bill.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Bill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Notify.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Notify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Base/Withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Base/Withdraw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Bill.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Bill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Notify.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Notify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Ecommerce/Withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Ecommerce/Withdraw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicAliPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicAliPay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicPushEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicPushEvent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeChat.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeChat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWePay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWePay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeWork.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/BasicWeWork.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/DataArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/DataArray.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/DataError.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/DataError.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/MyCurlFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/MyCurlFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/Prpcrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/Prpcrypt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Open/Contracts/Tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Contracts/Tools.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidDecryptException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidDecryptException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidInstanceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidInstanceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidResponseException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Exceptions/InvalidResponseException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Exceptions/LocalCacheException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Exceptions/LocalCacheException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/MiniApp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/MiniApp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/Custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/Custom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/Receive.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/Receive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeChat/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeChat/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Basic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Code.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Domain.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Domain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Ocr.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Ocr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Qrcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Scheme.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Scheme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/Tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/Tester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WeMini/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WeMini/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Open/WxShop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Open/WxShop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Aftersale.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Aftersale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Coupon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Delivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Delivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wechat/Shop/Shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wechat/Shop/Spu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Wechat/Shop/Spu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +93,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wechat/Open/Contracts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Extends/Express" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Extends\Express" />
       <recent name="D:\wamp64\www\wProvider\Wechat\Open\Contracts" />
       <recent name="D:\wamp64\www\wProvider\Wechat" />
       <recent name="D:\wamp64\www\wProvider" />
@@ -65,6 +121,46 @@
       <workItem from="1665054940579" duration="6931000" />
       <workItem from="1665199092233" duration="3430000" />
       <workItem from="1665363353925" duration="3453000" />
+      <workItem from="1665507165422" duration="768000" />
+      <workItem from="1665557411360" duration="1194000" />
+      <workItem from="1665565511354" duration="601000" />
+      <workItem from="1665642387146" duration="594000" />
+      <workItem from="1665746543478" duration="590000" />
+      <workItem from="1665770009116" duration="593000" />
+      <workItem from="1665806608641" duration="594000" />
+      <workItem from="1665838864623" duration="1187000" />
+      <workItem from="1665983154860" duration="592000" />
+      <workItem from="1666076923870" duration="594000" />
+      <workItem from="1666153859783" duration="594000" />
+      <workItem from="1666175381076" duration="591000" />
+      <workItem from="1666276947052" duration="594000" />
+      <workItem from="1666382834527" duration="593000" />
+      <workItem from="1666413474999" duration="412000" />
+      <workItem from="1666450208982" duration="591000" />
+      <workItem from="1666507429623" duration="588000" />
+      <workItem from="1666543684350" duration="586000" />
+      <workItem from="1666604767052" duration="588000" />
+      <workItem from="1666659290083" duration="593000" />
+      <workItem from="1666661130358" duration="594000" />
+      <workItem from="1666709057767" duration="590000" />
+      <workItem from="1666809085510" duration="592000" />
+      <workItem from="1666811077946" duration="593000" />
+      <workItem from="1666842672968" duration="593000" />
+      <workItem from="1666916511933" duration="593000" />
+      <workItem from="1666918471921" duration="591000" />
+      <workItem from="1666959231605" duration="593000" />
+      <workItem from="1667018708394" duration="593000" />
+      <workItem from="1667078343000" duration="592000" />
+      <workItem from="1667145798847" duration="594000" />
+      <workItem from="1667192096260" duration="594000" />
+      <workItem from="1667204639978" duration="594000" />
+      <workItem from="1667266267329" duration="593000" />
+      <workItem from="1667298075948" duration="593000" />
+      <workItem from="1667349499123" duration="593000" />
+      <workItem from="1667440501609" duration="594000" />
+      <workItem from="1667491645618" duration="590000" />
+      <workItem from="1667566211407" duration="589000" />
+      <workItem from="1673545493321" duration="360000" />
     </task>
     <servers />
   </component>

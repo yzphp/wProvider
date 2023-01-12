@@ -1,5 +1,5 @@
 <?php
-namespace WeOpen\Exceptions;
+namespace wProvider\WeChat\Open\Exceptions;
 
 /***
  * 本地缓存异常

@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Ecommerce;
+namespace wProvider\Wechat\Ecommerce;
 
 //查询余额 账单下载
 use wProvider\lib\Signs;

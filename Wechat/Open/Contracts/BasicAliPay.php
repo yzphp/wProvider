@@ -12,10 +12,10 @@
 // | github开源项目：https://github.com/zoujingli/WeChatDeveloper
 // +----------------------------------------------------------------------
 
-namespace wProvider\WeChat\Contracts;
+namespace wProvider\WeChat\Open\Contracts;
 
-use WeChat\Exceptions\InvalidArgumentException;
-use WeChat\Exceptions\InvalidResponseException;
+use wProvider\WeChat\Open\Exceptions\InvalidArgumentException;
+use wProvider\WeChat\Open\Exceptions\InvalidResponseException;
 
 /**
  * 支付宝支付基类

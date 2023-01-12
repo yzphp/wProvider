@@ -1,5 +1,5 @@
 <?php
-namespace WeOpen\Exceptions;
+namespace wProvider\WeChat\Open\Exceptions;
 
 /**
  * 加密解密异常

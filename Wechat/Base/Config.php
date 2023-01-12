@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Base;
+namespace wProvider\Wechat\Base;
 
 /**
  * 配置信息

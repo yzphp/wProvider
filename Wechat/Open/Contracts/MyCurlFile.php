@@ -1,6 +1,5 @@
 <?php
-
-namespace wProvider\WeChat\Contracts;
+namespace wProvider\WeChat\Open\Contracts;
 
 /**
  * 自定义CURL文件类

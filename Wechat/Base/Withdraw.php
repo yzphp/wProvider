@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Base;
+namespace wProvider\Wechat\Base;
 
 //商户提现
 use wProvider\lib\Signs;

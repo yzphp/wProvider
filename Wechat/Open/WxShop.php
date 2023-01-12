@@ -1,5 +1,5 @@
 <?php
-namespace wProvider\WeOpen;
+namespace wProvider\WeChat\Open;
 
 
 /**

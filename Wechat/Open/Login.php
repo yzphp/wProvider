@@ -1,6 +1,5 @@
 <?php
-namespace wProvider\WeOpen;
-
+namespace wProvider\WeChat\Open;
 use WeOpen\Contracts\DataArray;
 use WeOpen\Contracts\Tools;
 use WeOpen\Exceptions\InvalidArgumentException;

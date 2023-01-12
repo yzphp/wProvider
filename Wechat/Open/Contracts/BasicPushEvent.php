@@ -12,7 +12,7 @@
 // | github开源项目：https://github.com/zoujingli/WeChatDeveloper
 // +----------------------------------------------------------------------
 
-namespace wProvider\WeChat\Contracts;
+namespace wProvider\WeChat\Open\Contracts;
 
 use WeChat\Exceptions\InvalidArgumentException;
 use WeChat\Exceptions\InvalidDecryptException;

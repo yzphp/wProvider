@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Ecommerce;
+namespace wProvider\Wechat\Ecommerce;
 
 //回调数据验证 验证签名 返回数据
 use wProvider\lib\Signs;

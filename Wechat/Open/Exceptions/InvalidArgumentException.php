@@ -1,5 +1,5 @@
 <?php
-namespace WeOpen\Exceptions;
+namespace wProvider\WeChat\Open\Exceptions;
 
 /**
  * 接口参数异常

@@ -1,5 +1,5 @@
 <?php
-namespace WeOpen\Exceptions;
+namespace wProvider\WeChat\Open\Exceptions;
 use WeOpen\Contracts\DataError;
 /**
  * 返回异常

@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Base;
+namespace wProvider\Wechat\Base;
 
 use wProvider\lib\_Request;
 use wProvider\lib\Signs;

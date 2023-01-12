@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Base;
+namespace wProvider\Wechat\Base;
 //商户进件 SDK
 //分普通服务商 也就是特约 和 电商收付通的二级商户
 use wProvider\lib\_Request;
