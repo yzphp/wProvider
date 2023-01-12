@@ -36,9 +36,11 @@ class Kd100 extends AbstractProvider implements Kd100ConfigurationConstant
      * @throws \wProvider\Common\Express\Exceptions\InquiryErrorException
      * @throws \wProvider\Common\Express\Exceptions\InvalidArgumentException
      */
-    public function query($no, $company = null)
+    public function query($no, $company = null,$code="")
     {
-        if (empty($company)) {
+        if(!empty($code)){
+            $param['com']=$code;
+        }else if (empty($company)) {
             $query = [
                 'key' => $this->config[\strtolower(self::PROVIDER_NAME)]['app_code'],
                 'num' => $no,
