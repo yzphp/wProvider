@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express\Providers;
+namespace wProvider\Common\ExpressProviders;
 
-use wProvider\Common\Express\Exceptions\HttpException;
-use wProvider\Common\Express\Exceptions\InquiryErrorException;
-use wProvider\Common\Express\Interfaces\AliyunConfigurationConstant;
-use wProvider\Common\Express\Order;
-use wProvider\Common\Express\Traits\HasHttpRequest;
+use wProvider\Common\ExpressExceptions\HttpException;
+use wProvider\Common\ExpressExceptions\InquiryErrorException;
+use wProvider\Common\ExpressInterfaces\AliyunConfigurationConstant;
+use wProvider\Common\ExpressOrder;
+use wProvider\Common\ExpressTraits\HasHttpRequest;
 
 /**
  * Class Aliyun.
@@ -30,11 +30,11 @@ class Aliyun extends AbstractProvider implements AliyunConfigurationConstant
      * @param      $no
      * @param null $company
      *
-     * @return \wProvider\Common\Express\Order
+     * @return \wProvider\Common\ExpressOrder
      *
-     * @throws \wProvider\Common\Express\Exceptions\HttpException
-     * @throws \wProvider\Common\Express\Exceptions\InquiryErrorException
-     * @throws \wProvider\Common\Express\Exceptions\InvalidArgumentException
+     * @throws \wProvider\Common\ExpressExceptions\HttpException
+     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
+     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
      */
     public function query($no, $company = null)
     {
@@ -74,8 +74,8 @@ class Aliyun extends AbstractProvider implements AliyunConfigurationConstant
      *
      * @return array
      *
-     * @throws \wProvider\Common\Express\Exceptions\HttpException
-     * @throws \wProvider\Common\Express\Exceptions\InquiryErrorException
+     * @throws \wProvider\Common\ExpressExceptions\HttpException
+     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
      */
     protected function sendRequest($url, $params, $headers, $SUCCESS_STATUS = self::GLOBAL_SUCCESS_CODE)
     {
@@ -95,7 +95,7 @@ class Aliyun extends AbstractProvider implements AliyunConfigurationConstant
     /**
      * @param $logisticsOrder
      *
-     * @return \wProvider\Common\Express\Order
+     * @return \wProvider\Common\ExpressOrder
      */
     protected function mapLogisticsOrderToObject($logisticsOrder)
     {

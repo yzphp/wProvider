@@ -4,6 +4,26 @@
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Contracts/ProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Contracts/ProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/InquiryErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InquiryErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/AliyunConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/AliyunConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/JuheConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/JuheConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/Kd100ConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/Kd100ConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/KdniaoConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/KdniaoConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/LogisticsStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/LogisticsStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Logistics.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Logistics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/AbstractProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/AbstractProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Aliyun.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Aliyun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Juhe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Juhe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Kdniao.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Kdniao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Traits/HasAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Traits/HasAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Traits/HasHttpRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Traits/HasHttpRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +115,7 @@
       <workItem from="1667440501609" duration="594000" />
       <workItem from="1667491645618" duration="590000" />
       <workItem from="1667566211407" duration="589000" />
-      <workItem from="1673545493321" duration="3534000" />
+      <workItem from="1673545493321" duration="4429000" />
     </task>
     <servers />
   </component>

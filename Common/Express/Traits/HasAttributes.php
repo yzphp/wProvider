@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express\Traits;
+namespace wProvider\Common\ExpressTraits;
 
 /**
  * Trait HasAttributes.

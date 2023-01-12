@@ -11,7 +11,7 @@
 
 namespace wProvider\Common\Express;
 
-use wProvider\Common\Express\Exceptions\InvalidArgumentException;
+use wProvider\Common\ExpressExceptions\InvalidArgumentException;
 
 /**
  * Class Factory.

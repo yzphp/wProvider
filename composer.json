@@ -23,8 +23,9 @@
     "autoload": {
         "psr-4": {
             "lib\\": "lib",
-            "iwangr\\wProvider\\Wechat\\": "Wechat/",
-            "iwangr\\wProvider\\Common\\": "Common/"
+            "wProvider\\Wechat\\": "Wechat/",
+            "wProvider\\Common\\": "Common/",
+            "wProvider\\Common\\Express\\": "Common/Express/"
         }
     }
 }

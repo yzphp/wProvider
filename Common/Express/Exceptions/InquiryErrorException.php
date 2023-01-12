@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express\Exceptions;
+namespace wProvider\Common\ExpressExceptions;
 
 /**
  * Class InquiryErrorException.

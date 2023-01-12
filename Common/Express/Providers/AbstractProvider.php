@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express\Providers;
+namespace wProvider\Common\ExpressProviders;
 
-use wProvider\Common\Express\Contracts\ProviderInterface;
-use wProvider\Common\Express\Exceptions\InvalidArgumentException;
-use wProvider\Common\Express\Interfaces\LogisticsStatus;
+use wProvider\Common\ExpressContracts\ProviderInterface;
+use wProvider\Common\ExpressExceptions\InvalidArgumentException;
+use wProvider\Common\ExpressInterfaces\LogisticsStatus;
 
 /**
  * Class Base.
@@ -49,14 +49,14 @@ abstract class AbstractProvider implements ProviderInterface, LogisticsStatus
      * @param      $no
      * @param null $company
      *
-     * @return \wProvider\Common\Express\Order
+     * @return \wProvider\Common\ExpressOrder
      */
     abstract protected function query($no, $company = null);
 
     /**
      * @param $logisticsOrder
      *
-     * @return \wProvider\Common\Express\Order
+     * @return \wProvider\Common\ExpressOrder
      */
     abstract protected function mapLogisticsOrderToObject($logisticsOrder);
 
@@ -72,7 +72,7 @@ abstract class AbstractProvider implements ProviderInterface, LogisticsStatus
      *
      * @return string
      *
-     * @throws \wProvider\Common\Express\Exceptions\InvalidArgumentException
+     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
      */
     public function getLogisticsCompanyAliases($company)
     {

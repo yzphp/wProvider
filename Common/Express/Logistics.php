@@ -31,7 +31,7 @@ class Logistics
      *
      * @return mixed
      *
-     * @throws \wProvider\Common\Express\Exceptions\InvalidArgumentException
+     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
      */
     public function __call($name, $arguments)
     {
