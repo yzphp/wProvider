@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express;
+namespace Express;
 
 /**
  * Class Logistics.
@@ -31,7 +31,7 @@ class Logistics
      *
      * @return mixed
      *
-     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
+     * @throws \ExpressExceptions\InvalidArgumentException
      */
     public function __call($name, $arguments)
     {

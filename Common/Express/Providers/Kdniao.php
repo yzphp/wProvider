@@ -8,13 +8,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\ExpressProviders;
+namespace ExpressProviders;
 
-use wProvider\Common\ExpressExceptions\HttpException;
-use wProvider\Common\ExpressExceptions\InquiryErrorException;
-use wProvider\Common\ExpressInterfaces\KdniaoConfigurationConstant;
-use wProvider\Common\ExpressOrder;
-use wProvider\Common\ExpressTraits\HasHttpRequest;
+use ExpressExceptions\HttpException;
+use ExpressExceptions\InquiryErrorException;
+use ExpressInterfaces\KdniaoConfigurationConstant;
+use ExpressOrder;
+use ExpressTraits\HasHttpRequest;
 
 /**
  * Class Kdniao.
@@ -29,11 +29,11 @@ class Kdniao extends AbstractProvider implements KdniaoConfigurationConstant
      * @param      $no
      * @param null $company
      *
-     * @return \wProvider\Common\ExpressOrder
+     * @return \ExpressOrder
      *
-     * @throws \wProvider\Common\ExpressExceptions\HttpException
-     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
-     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
+     * @throws \ExpressExceptions\HttpException
+     * @throws \ExpressExceptions\InquiryErrorException
+     * @throws \ExpressExceptions\InvalidArgumentException
      */
     public function query($no, $company = null)
     {
@@ -104,8 +104,8 @@ class Kdniao extends AbstractProvider implements KdniaoConfigurationConstant
      *
      * @return array
      *
-     * @throws \wProvider\Common\ExpressExceptions\HttpException
-     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
+     * @throws \ExpressExceptions\HttpException
+     * @throws \ExpressExceptions\InquiryErrorException
      */
     protected function sendRequestPost($url, $params, $headers, $SUCCESS_STATUS = self::GLOBAL_SUCCESS_CODE)
     {
@@ -129,7 +129,7 @@ class Kdniao extends AbstractProvider implements KdniaoConfigurationConstant
     /**
      * @param $logisticsOrder
      *
-     * @return \wProvider\Common\ExpressOrder
+     * @return \ExpressOrder
      */
     protected function mapLogisticsOrderToObject($logisticsOrder)
     {
@@ -176,7 +176,7 @@ class Kdniao extends AbstractProvider implements KdniaoConfigurationConstant
      *
      * @return array
      *
-     * @throws \wProvider\Common\ExpressExceptions\HttpException
+     * @throws \ExpressExceptions\HttpException
      */
     protected function sendRequestGet($url, $params, $headers)
     {

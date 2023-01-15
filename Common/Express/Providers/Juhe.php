@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\ExpressProviders;
+namespace ExpressProviders;
 
-use wProvider\Common\ExpressExceptions\HttpException;
-use wProvider\Common\ExpressExceptions\InquiryErrorException;
-use wProvider\Common\ExpressExceptions\InvalidArgumentException;
-use wProvider\Common\ExpressInterfaces\JuheConfigurationConstant;
-use wProvider\Common\ExpressOrder;
-use wProvider\Common\ExpressTraits\HasHttpRequest;
+use ExpressExceptions\HttpException;
+use ExpressExceptions\InquiryErrorException;
+use ExpressExceptions\InvalidArgumentException;
+use ExpressInterfaces\JuheConfigurationConstant;
+use ExpressOrder;
+use ExpressTraits\HasHttpRequest;
 
 /**
  * Class Juhe.
@@ -31,11 +31,11 @@ class Juhe extends AbstractProvider implements JuheConfigurationConstant
      * @param      $no
      * @param null $company
      *
-     * @return \wProvider\Common\ExpressOrder
+     * @return \ExpressOrder
      *
-     * @throws \wProvider\Common\ExpressExceptions\HttpException
-     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
-     * @throws \wProvider\Common\ExpressExceptions\InvalidArgumentException
+     * @throws \ExpressExceptions\HttpException
+     * @throws \ExpressExceptions\InquiryErrorException
+     * @throws \ExpressExceptions\InvalidArgumentException
      */
     public function query($no, $company = null)
     {
@@ -76,8 +76,8 @@ class Juhe extends AbstractProvider implements JuheConfigurationConstant
      *
      * @return array
      *
-     * @throws \wProvider\Common\ExpressExceptions\HttpException
-     * @throws \wProvider\Common\ExpressExceptions\InquiryErrorException
+     * @throws \ExpressExceptions\HttpException
+     * @throws \ExpressExceptions\InquiryErrorException
      */
     protected function sendRequest($url, $params, $headers, $SUCCESS_STATUS = self::GLOBAL_SUCCESS_CODE)
     {
@@ -97,7 +97,7 @@ class Juhe extends AbstractProvider implements JuheConfigurationConstant
     /**
      * @param $logisticsOrder
      *
-     * @return \wProvider\Common\ExpressOrder
+     * @return \ExpressOrder
      */
     protected function mapLogisticsOrderToObject($logisticsOrder)
     {

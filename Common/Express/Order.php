@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express;
+namespace Express;
 
-use wProvider\Common\ExpressTraits\HasAttributes;
+use ExpressTraits\HasAttributes;
 
 /**
  * Class Order.

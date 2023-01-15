@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\ExpressExceptions;
+namespace ExpressExceptions;
 
 /**
  * Class Exception.

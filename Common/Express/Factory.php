@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\Common\Express;
+namespace Express;
 
-use wProvider\Common\ExpressExceptions\InvalidArgumentException;
+use ExpressExceptions\InvalidArgumentException;
 
 /**
  * Class Factory.
