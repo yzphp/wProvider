@@ -3,6 +3,7 @@
     "description": "PHP微服务商SDK",
     "type": "library",
     "keywords": [
+        "TimeHelper",
         "wechatpay",
         "ecommerce",
         "微信支付",
@@ -22,10 +23,8 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "lib\\": "lib",
-            "wProvider\\Wechat\\": "Wechat/",
-            "wProvider\\Common\\": "Common/",
-            "wProvider\\Common\\Express\\": "Common/Express/"
+            "Tool\\": "Tool"
+
         }
     }
 }
