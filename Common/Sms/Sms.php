@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms;
+namespace wProvider\Sms;
 
 use Closure;
 use Sms\Contracts\GatewayInterface;

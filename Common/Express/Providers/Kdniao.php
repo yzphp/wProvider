@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ExpressProviders;
+namespace wProvider\ExpressProviders;
 
 use ExpressExceptions\HttpException;
 use ExpressExceptions\InquiryErrorException;

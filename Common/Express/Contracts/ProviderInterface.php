@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ExpressContracts;
+namespace wProvider\ExpressContracts;
 
 /**
  * Interface Resolvable.

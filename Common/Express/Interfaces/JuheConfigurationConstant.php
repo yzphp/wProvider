@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace ExpressInterfaces;
+namespace wProvider\ExpressInterfaces;
 
 interface JuheConfigurationConstant
 {

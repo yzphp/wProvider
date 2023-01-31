@@ -2,83 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/Express/Config/logistics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Contracts/ProviderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Exceptions/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Exceptions/HttpException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InquiryErrorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Interfaces/AliyunConfigurationConstant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Interfaces/JuheConfigurationConstant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Interfaces/Kd100ConfigurationConstant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Interfaces/KdniaoConfigurationConstant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Interfaces/LogisticsStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Logistics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/OrderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Providers/AbstractProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Providers/Aliyun.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Providers/Juhe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Providers/Kdniao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/ServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Traits/HasAttributes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/Traits/HasHttpRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Express/companies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Contracts/GatewayInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Contracts/MessageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Contracts/PhoneNumberInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Contracts/StrategyInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Exceptions/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Exceptions/GatewayErrorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Exceptions/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Exceptions/NoGatewayAvailableException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/AliyunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/AliyunIntlGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/AliyunrestGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/AvatardataGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/BaiduGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/ChuanglanGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/ErrorlogGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/Gateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/HuaweiGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/HuaxinGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/HuyiGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/JuheGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/KingttoGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/LuosimaoGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/MaapGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/ModuyunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/QcloudGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/QiniuGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/RongcloudGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/RongheyunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/SendcloudGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/SmsbaoGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/SubmailGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/TianyiwuxianGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/TiniyoGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/TinreeGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/TwilioGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/UcloudGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/Ue35Gateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/VolcengineGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/YunpianGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/YuntongxunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/YunxinGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/YunzhixunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Gateways/ZzyunGateway.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Messenger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Sms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Strategies/OrderStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Strategies/RandomStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Support/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Sms/Traits/HasHttpRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestTimeHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestTimeHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Messenger.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Messenger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Sms.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Sms.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +105,7 @@
       <workItem from="1673846314830" duration="1274000" />
       <workItem from="1674993611189" duration="738000" />
       <workItem from="1674994727708" duration="1190000" />
-      <workItem from="1675140031033" duration="5456000" />
+      <workItem from="1675140031033" duration="6364000" />
     </task>
     <servers />
   </component>

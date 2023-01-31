@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Express;
+namespace wProvider\Express;
 
 use ExpressExceptions\InvalidArgumentException;
 

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms\Gateways;
+namespace wProvider\Sms\Gateways;
 
 use Sms\Support\Config;
 use Sms\Traits\HasHttpRequest;

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms\Exceptions;
+namespace wProvider\Sms\Exceptions;
 
 /**
  * Class GatewayErrorException.

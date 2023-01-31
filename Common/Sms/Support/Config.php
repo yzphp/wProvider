@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms\Support;
+namespace wProvider\Sms\Support;
 
 use ArrayAccess;
 

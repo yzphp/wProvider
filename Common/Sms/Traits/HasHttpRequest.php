@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms\Traits;
+namespace wProvider\Sms\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

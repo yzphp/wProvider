@@ -1,6 +1,6 @@
 <?php
 
-namespace Sms\Gateways;
+namespace wProvider\Sms\Gateways;
 
 use Sms\Contracts\MessageInterface;
 use Sms\Contracts\PhoneNumberInterface;

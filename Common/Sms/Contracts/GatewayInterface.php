@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Sms\Contracts;
+namespace wProvider\Sms\Contracts;
 
 use Sms\Support\Config;
 
