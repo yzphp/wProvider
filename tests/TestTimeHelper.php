@@ -1,5 +1,6 @@
 <?php
 require '../vendor/autoload.php';
+
 echo '测试:' . PHP_EOL;
 echo \wProvider\Tool\TimeHelper::isTimestamp(1646186290) . PHP_EOL;
 echo '测试:' . PHP_EOL;
