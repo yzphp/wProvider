@@ -4,7 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Tool" isTestSource="false" packagePrefix="Tool\" />
+      <sourceFolder url="file://$MODULE_DIR$/wProvider/Common" isTestSource="false" packagePrefix="wProvider\Common\" />
+      <sourceFolder url="file://$MODULE_DIR$/wProvider/Tool" isTestSource="false" packagePrefix="wProvider\Tool\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

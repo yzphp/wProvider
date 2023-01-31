@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Sms/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Sms/Messenger.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Messenger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Sms/Sms.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Sms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1673846314830" duration="1274000" />
       <workItem from="1674993611189" duration="738000" />
       <workItem from="1674994727708" duration="1190000" />
-      <workItem from="1675140031033" duration="6364000" />
+      <workItem from="1675140031033" duration="7309000" />
     </task>
     <servers />
   </component>
