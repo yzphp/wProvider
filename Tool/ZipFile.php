@@ -1,5 +1,5 @@
 <?php
-namespace wProvider\Tool;
+namespace Tool;
 
 class ZipFile
 {
