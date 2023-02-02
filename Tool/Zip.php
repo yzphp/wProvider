@@ -7,14 +7,14 @@ class Zip
 
 
     /**********************************************************
-     * Ñ¹Ëõ²¿·Ö
+     * å‹ç¼©éƒ¨åˆ†
      **********************************************************/
     // ------------------------------------------------------ //
-    // #±éÀúÖ¸¶¨ÎÄ¼ş¼Ğ
+    // #éå†æŒ‡å®šæ–‡ä»¶å¤¹
     //
     // $archive  = new Zip();
-    // $filelist = $archive->visitFile(ÎÄ¼ş¼ĞÂ·¾¶);
-    // print "µ±Ç°ÎÄ¼ş¼ĞµÄÎÄ¼ş:<p>\r\n";
+    // $filelist = $archive->visitFile(æ–‡ä»¶å¤¹è·¯å¾„);
+    // print "å½“å‰æ–‡ä»¶å¤¹çš„æ–‡ä»¶:<p>\r\n";
     // foreach($filelist as $file)
     //     printf("%s<br>\r\n", $file);
     // ------------------------------------------------------ //
@@ -29,7 +29,7 @@ class Zip
         {
             if($file == '.' || $file == '..'){ continue; }
 
-            $pathSub    = preg_replace("*/{2,}*", "/", $path."/".$file);  // Ìæ»»¶à¸ö·´Ğ±¸Ü
+            $pathSub    = preg_replace("*/{2,}*", "/", $path."/".$file);  // æ›¿æ¢å¤šä¸ªåæ–œæ 
             $fileList[] = is_dir($pathSub) ? $pathSub."/" : $pathSub;
             if(is_dir($pathSub)){ $this->visitFile($pathSub); }
         }
@@ -141,10 +141,10 @@ class Zip
 
 
     // ------------------------------------------------------ //
-    // #Ñ¹Ëõµ½·şÎñÆ÷
+    // #å‹ç¼©åˆ°æœåŠ¡å™¨
     //
     // $archive = new Zip();
-    // $archive->Zip("ĞèÑ¹ËõµÄÎÄ¼şËùÔÚÄ¿Â¼", "ZIPÑ¹ËõÎÄ¼şÃû");
+    // $archive->Zip("éœ€å‹ç¼©çš„æ–‡ä»¶æ‰€åœ¨ç›®å½•", "ZIPå‹ç¼©æ–‡ä»¶å");
     // ------------------------------------------------------ //
     public function Zip($dir, $saveName)
     {
@@ -162,8 +162,8 @@ class Zip
             $content  = @fread($fd, filesize($file));
             fclose($fd);
 
-            // 1.É¾³ı$dirµÄ×Ö·û(./folder/file.txtÉ¾³ı./folder/)
-            // 2.Èç¹û´æÔÚ/¾ÍÉ¾³ı(/file.txtÉ¾³ı/)
+            // 1.åˆ é™¤$dirçš„å­—ç¬¦(./folder/file.txtåˆ é™¤./folder/)
+            // 2.å¦‚æœå­˜åœ¨/å°±åˆ é™¤(/file.txtåˆ é™¤/)
             $file = substr($file, strlen($dir));
             if(substr($file, 0, 1) == "\\" || substr($file, 0, 1) == "/"){ $file = substr($file, 1); }
 
@@ -178,10 +178,10 @@ class Zip
 
 
     // ------------------------------------------------------ //
-    // #Ñ¹Ëõ²¢Ö±½ÓÏÂÔØ
+    // #å‹ç¼©å¹¶ç›´æ¥ä¸‹è½½
     //
     // $archive = new Zip();
-    // $archive->ZipAndDownload("ĞèÑ¹ËõµÄÎÄ¼şËùÔÚÄ¿Â¼");
+    // $archive->ZipAndDownload("éœ€å‹ç¼©çš„æ–‡ä»¶æ‰€åœ¨ç›®å½•");
     // ------------------------------------------------------ //
     public function ZipAndDownload($dir)
     {
@@ -199,8 +199,8 @@ class Zip
             $content  = @fread($fd, filesize($file));
             fclose($fd);
 
-            // 1.É¾³ı$dirµÄ×Ö·û(./folder/file.txtÉ¾³ı./folder/)
-            // 2.Èç¹û´æÔÚ/¾ÍÉ¾³ı(/file.txtÉ¾³ı/)
+            // 1.åˆ é™¤$dirçš„å­—ç¬¦(./folder/file.txtåˆ é™¤./folder/)
+            // 2.å¦‚æœå­˜åœ¨/å°±åˆ é™¤(/file.txtåˆ é™¤/)
             $file = substr($file, strlen($dir));
             if(substr($file, 0, 1) == "\\" || substr($file, 0, 1) == "/"){ $file = substr($file, 1); }
 
@@ -221,12 +221,12 @@ class Zip
 
 
     /**********************************************************
-     * ½âÑ¹²¿·Ö
+     * è§£å‹éƒ¨åˆ†
      **********************************************************/
     // ------------------------------------------------------ //
     // ReadCentralDir($zip, $zipfile)
-    // $zipÊÇ¾­¹ı@fopen($zipfile, 'rb')´ò¿ªµÄ
-    // $zipfileÊÇzipÎÄ¼şµÄÂ·¾¶
+    // $zipæ˜¯ç»è¿‡@fopen($zipfile, 'rb')æ‰“å¼€çš„
+    // $zipfileæ˜¯zipæ–‡ä»¶çš„è·¯å¾„
     // ------------------------------------------------------ //
     private function ReadCentralDir($zip, $zipfile)
     {
@@ -247,7 +247,7 @@ class Zip
 
         $data = unpack('vdisk/vdisk_start/vdisk_entries/ventries/Vsize/Voffset/vcomment_size', fread($zip, 18));
 
-        $centd['comment']      = ($data['comment_size'] != 0) ? fread($zip, $data['comment_size']) : '';  // ×¢ÊÍ
+        $centd['comment']      = ($data['comment_size'] != 0) ? fread($zip, $data['comment_size']) : '';  // æ³¨é‡Š
         $centd['entries']      = $data['entries'];
         $centd['disk_entries'] = $data['disk_entries'];
         $centd['offset']       = $data['offset'];
@@ -282,7 +282,7 @@ class Zip
         }
         $header['stored_filename'] = $header['filename'];
         $header['status'] = 'ok';
-        if(substr($header['filename'], -1) == '/'){ $header['external'] = 0x41FF0010; }  // ÅĞ¶ÏÊÇ·ñÎÄ¼ş¼Ğ
+        if(substr($header['filename'], -1) == '/'){ $header['external'] = 0x41FF0010; }  // åˆ¤æ–­æ˜¯å¦æ–‡ä»¶å¤¹
         return $header;
     }
 
@@ -323,7 +323,7 @@ class Zip
     private function ExtractFile($header, $to, $zip)
     {
         $header = $this->readfileheader($zip);
-
+        $pthss="";
         if(substr($to, -1) != "/"){ $to .= "/"; }
         if(!@is_dir($to)){ @mkdir($to, 0777); }
 
@@ -401,18 +401,18 @@ class Zip
 
 
     // ------------------------------------------------------ //
-    // #½âÑ¹ÎÄ¼ş
+    // #è§£å‹æ–‡ä»¶
     //
     // $archive   = new Zip();
-    // $zipfile   = "ZIPÑ¹ËõÎÄ¼şÃû";
-    // $savepath  = "½âÑ¹ËõÄ¿Â¼Ãû";
+    // $zipfile   = "ZIPå‹ç¼©æ–‡ä»¶å";
+    // $savepath  = "è§£å‹ç¼©ç›®å½•å";
     // $zipfile   = $unzipfile;
     // $savepath  = $unziptarget;
     // $array     = $archive->GetZipInnerFilesInfo($zipfile);
     // $filecount = 0;
     // $dircount  = 0;
     // $failfiles = array();
-    // set_time_limit(0);  // ĞŞ¸ÄÎª²»ÏŞÖÆ³¬Ê±Ê±¼ä(Ä¬ÈÏÎª30Ãë)
+    // set_time_limit(0);  // ä¿®æ”¹ä¸ºä¸é™åˆ¶è¶…æ—¶æ—¶é—´(é»˜è®¤ä¸º30ç§’)
     //
     // for($i=0; $i<count($array); $i++) {
     //     if($array[$i][folder] == 0){
@@ -426,7 +426,7 @@ class Zip
     //     }
     // }
     // set_time_limit(30);
-    //printf("ÎÄ¼ş¼Ğ:%d&nbsp;&nbsp;&nbsp;&nbsp;½âÑ¹ÎÄ¼ş:%d&nbsp;&nbsp;&nbsp;&nbsp;Ê§°Ü:%d<br>\r\n", $dircount, $filecount, count($failfiles));
+    //printf("æ–‡ä»¶å¤¹:%d&nbsp;&nbsp;&nbsp;&nbsp;è§£å‹æ–‡ä»¶:%d&nbsp;&nbsp;&nbsp;&nbsp;å¤±è´¥:%d<br>\r\n", $dircount, $filecount, count($failfiles));
     //if(count($failfiles) > 0){
     //    foreach($failfiles as $file){
     //        printf("&middot;%s<br>\r\n", $file);
@@ -474,13 +474,13 @@ class Zip
 
 
     /**********************************************************
-     * ÆäËü²¿·Ö
+     * å…¶å®ƒéƒ¨åˆ†
      **********************************************************/
     // ------------------------------------------------------ //
-    // #»ñÈ¡±»Ñ¹ËõÎÄ¼şµÄĞÅÏ¢
+    // #è·å–è¢«å‹ç¼©æ–‡ä»¶çš„ä¿¡æ¯
     //
     // $archive = new Zip();
-    // $array = $archive->GetZipInnerFilesInfo(ZIPÑ¹ËõÎÄ¼şÃû);
+    // $array = $archive->GetZipInnerFilesInfo(ZIPå‹ç¼©æ–‡ä»¶å);
     // for($i=0; $i<count($array); $i++) {
     //     printf("<b>&middot;%s</b><br>\r\n", $array[$i][filename]);
     //     foreach($array[$i] as $key => $value)
@@ -503,16 +503,16 @@ class Zip
             $header          = $this->ReadCentralFileHeaders($zip);
             $header['index'] = $i;
             $info = array(
-                'filename'        => $header['filename'],                   // ÎÄ¼şÃû
-                'stored_filename' => $header['stored_filename'],            // Ñ¹ËõºóÎÄ¼şÃû
-                'size'            => $header['size'],                       // ´óĞ¡
-                'compressed_size' => $header['compressed_size'],            // Ñ¹Ëõºó´óĞ¡
+                'filename'        => $header['filename'],                   // æ–‡ä»¶å
+                'stored_filename' => $header['stored_filename'],            // å‹ç¼©åæ–‡ä»¶å
+                'size'            => $header['size'],                       // å¤§å°
+                'compressed_size' => $header['compressed_size'],            // å‹ç¼©åå¤§å°
                 'crc'             => strtoupper(dechex($header['crc'])),    // CRC32
-                'mtime'           => date("Y-m-d H:i:s",$header['mtime']),  // ÎÄ¼şĞŞ¸ÄÊ±¼ä
-                'comment'         => $header['comment'],                    // ×¢ÊÍ
-                'folder'          => ($header['external'] == 0x41FF0010 || $header['external'] == 16) ? 1 : 0,  // ÊÇ·ñÎªÎÄ¼ş¼Ğ
-                'index'           => $header['index'],                      // ÎÄ¼şË÷Òı
-                'status'          => $header['status']                      // ×´Ì¬
+                'mtime'           => date("Y-m-d H:i:s",$header['mtime']),  // æ–‡ä»¶ä¿®æ”¹æ—¶é—´
+                'comment'         => $header['comment'],                    // æ³¨é‡Š
+                'folder'          => ($header['external'] == 0x41FF0010 || $header['external'] == 16) ? 1 : 0,  // æ˜¯å¦ä¸ºæ–‡ä»¶å¤¹
+                'index'           => $header['index'],                      // æ–‡ä»¶ç´¢å¼•
+                'status'          => $header['status']                      // çŠ¶æ€
             );
             $ret[] = $info;
             unset($header);
@@ -523,10 +523,10 @@ class Zip
 
 
     // ------------------------------------------------------ //
-    // #»ñÈ¡Ñ¹ËõÎÄ¼şµÄ×¢ÊÍ
+    // #è·å–å‹ç¼©æ–‡ä»¶çš„æ³¨é‡Š
     //
     // $archive = new Zip();
-    // echo $archive->GetZipComment(ZIPÑ¹ËõÎÄ¼şÃû);
+    // echo $archive->GetZipComment(ZIPå‹ç¼©æ–‡ä»¶å);
     // ------------------------------------------------------ //
     public function GetZipComment($zipfile)
     {
