@@ -4,6 +4,7 @@
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tool/Zip.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Zip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestZipFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestZipFile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +31,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\tests" />
       <recent name="D:\wamp64\www\wProvider" />
       <recent name="D:\wamp64\www\wProvider\Tool" />
       <recent name="D:\wamp64\www\wProvider\Common" />
       <recent name="D:\wamp64\www\wProvider\Common\Express" />
-      <recent name="D:\wamp64\www\wProvider\Extends\Express" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\wProvider\Wechat\Ecommerce" />
@@ -104,7 +105,7 @@
       <workItem from="1674994727708" duration="1190000" />
       <workItem from="1675140031033" duration="7904000" />
       <workItem from="1675215026754" duration="589000" />
-      <workItem from="1675278011638" duration="5014000" />
+      <workItem from="1675278011638" duration="9263000" />
     </task>
     <servers />
   </component>

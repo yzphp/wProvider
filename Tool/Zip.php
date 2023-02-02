@@ -176,7 +176,54 @@ class Zip
         fclose($fp);
     }
 
+// ------------------------------------------------------ //
+    // #压缩到服务器
+    //
+    // $archive = new Zip();
+    // $archive->Zip("需压缩的文件所在目录", "ZIP压缩文件名");
+    // ------------------------------------------------------ //
+    public function ZipFiles($filelist, $saveName)
+    {
+        if(@!function_exists('gzcompress')){ return; }
 
+        ob_end_clean();
+        if(count($filelist) == 0){ return; }
+
+        foreach($filelist as $file)
+        {
+            if(is_array($file)) {
+
+
+                if (!file_exists($file['path']) || !is_file($file['path'])) {
+                    continue;
+                }
+
+                $fd = fopen($file['path'], "rb");
+                $content = @fread($fd, filesize($file['path']));
+                fclose($fd);
+
+                $this->addFile($content, $file['name'].'.'.$this->get_file_extension($file['path']));
+            }else{
+                if(!file_exists($file) || !is_file($file)){ continue; }
+
+                $fd       = fopen($file, "rb");
+                $content  = @fread($fd, filesize($file));
+                fclose($fd);
+
+                // 1.删除$dir的字符(./folder/file.txt删除./folder/)
+                // 2.如果存在/就删除(/file.txt删除/)
+                $file = substr($file, strlen($dir));
+                if(substr($file, 0, 1) == "\\" || substr($file, 0, 1) == "/"){ $file = substr($file, 1); }
+
+                $this->addFile($content, $file);
+            }
+        }
+        $out = $this->file();
+
+        $fp = fopen($saveName, "wb");
+        fwrite($fp, $out, strlen($out));
+        fclose($fp);
+    }
     // ------------------------------------------------------ //
     // #压缩并直接下载
     //
@@ -242,7 +289,7 @@ class Zip
             $byte  = @fread($zip, 1);
             $bytes = ($bytes << 8) | Ord($byte);
             $pos++;
-            if($bytes == 0x504b0506){ break; }
+            if(substr(dechex($bytes),-8,8) == '504b0506'){ break; }
         }
 
         $data = unpack('vdisk/vdisk_start/vdisk_entries/ventries/Vsize/Voffset/vcomment_size', fread($zip, 18));
@@ -334,7 +381,7 @@ class Zip
             if(!is_dir($to.$pthss)){ @mkdir($to.$pthss, 0777); }
         }
 
-        if(!($header['external'] == 0x41FF0010) && !($header['external'] == 16))
+        if(!($header['extra'] == 0x41FF0010) && !($header['extra'] == 16))
         {
             if($header['compression'] == 0)
             {
@@ -433,7 +480,8 @@ class Zip
     //    }
     //}
     // ------------------------------------------------------ //
-    public function unZip($zipfile, $to, $index = Array(-1))
+
+    public function unZip($zipfile, $to="", $index = Array(-1))
     {
         $ok  = 0;
         $zip = @fopen($zipfile, 'rb');
@@ -442,15 +490,19 @@ class Zip
         $cdir      = $this->ReadCentralDir($zip, $zipfile);
         $pos_entry = $cdir['offset'];
 
-        if(!is_array($index)){ $index = array($index); }
-        for($i=0; $index[$i]; $i++)
+        if(!is_array($index)){ $index = [$index]; }
+        foreach ($index as $i=>$index1)
         {
             if(intval($index[$i]) != $index[$i] || $index[$i] > $cdir['entries'])
             {
                 return(-1);
             }
         }
-
+        if($to==""){
+            $to=str_replace(".".$this->get_file_extension($zipfile),"/",$zipfile);
+        }
+        
+        $to = iconv("utf-8", "gb2312", $to);
         for($i=0; $i<$cdir['entries']; $i++)
         {
             @fseek($zip, $pos_entry);
@@ -468,10 +520,6 @@ class Zip
         fclose($zip);
         return $stat;
     }
-
-
-
-
 
     /**********************************************************
      * 其它部分
@@ -535,6 +583,9 @@ class Zip
         $centd = $this->ReadCentralDir($zip, $zipfile);
         fclose($zip);
         return $centd[comment];
+    }
+    public function get_file_extension($file_name) {
+        return substr(strrchr($file_name,'.'),1);
     }
 }
 ?>
