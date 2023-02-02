@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestTimeHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestTimeHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ZipFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Zip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestZipFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestZipFile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,7 @@
       <workItem from="1674994727708" duration="1190000" />
       <workItem from="1675140031033" duration="7904000" />
       <workItem from="1675215026754" duration="589000" />
-      <workItem from="1675278011638" duration="3353000" />
+      <workItem from="1675278011638" duration="4320000" />
     </task>
     <servers />
   </component>
