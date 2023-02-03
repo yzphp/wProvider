@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace Tool;
+namespace wProvider\Tool;
 
 use DateTime;
 use InvalidArgumentException;

@@ -1,5 +1,5 @@
 <?php
-namespace Tool;
+namespace wProvider\Tool;
 class Zip
 {
     private $ctrl_dir     = array();
@@ -501,7 +501,7 @@ class Zip
         if($to==""){
             $to=str_replace(".".$this->get_file_extension($zipfile),"/",$zipfile);
         }
-        
+
         $to = iconv("utf-8", "gb2312", $to);
         for($i=0; $i<$cdir['entries']; $i++)
         {

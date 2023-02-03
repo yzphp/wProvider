@@ -23,9 +23,10 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "wProvider\\Tool\\": "wProvider/Tool",
-            "wProvider\\Common\\": "wProvider/Common"
-
+            "wProvider\\Tool\\": "Tool",
+            "wProvider\\Common\\": "Common",
+            "wProvider\\Sms\\": "Common/Sms",
+            "wProvider\\Express\\": "Common/Express"
         }
     }
 }
