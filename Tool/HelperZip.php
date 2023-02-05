@@ -1,6 +1,6 @@
 <?php
 namespace wProvider\Tool;
-class Zip
+class HelperZip
 {
     private $ctrl_dir     = array();
     private $datasec      = array();

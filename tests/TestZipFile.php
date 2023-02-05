@@ -8,6 +8,6 @@ $archive  = new \Tool\Zip();
 $archive->ZipFiles($list,"test.zip");
 */
 
-$archive  = new \wProvider\Tool\Zip();
+$archive  = new \wProvider\Tool\HelperZip();
 $archive->unZip("./test.zip");
 ?>
