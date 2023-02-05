@@ -1,8 +1,9 @@
 <?php
 namespace wProvider\order\decorators;
 
-use cncoders\helper\Helper;
+
 use wProvider\order\interfaces\DecoratorInterface;
+use wProvider\Tool\HelperOrder;
 
 class DeliveryDecorator implements DecoratorInterface
 {
@@ -41,8 +42,8 @@ class DeliveryDecorator implements DecoratorInterface
             $delivery_price = $this->fixedDeliveryPrice;
         }
 
-        $this->order['delivery_price'] = Helper::formatPrice($delivery_price);
-        $this->order['final_total_price'] = Helper::formatPrice(
+        $this->order['delivery_price'] = HelperOrder::formatPrice($delivery_price);
+        $this->order['final_total_price'] = HelperOrder::formatPrice(
             ($this->order['final_total_price'] + $delivery_price)
         );
 
