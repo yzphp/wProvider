@@ -1,9 +1,9 @@
 <?php
 namespace wProvider\order\decorators;
 
-use cncoders\helper\Arrays;
-use cncoders\helper\Helper;
 use wProvider\order\interfaces\DecoratorInterface;
+use wProvider\Tool\HelperArray;
+use wProvider\Tool\HelperOrder;
 
 /**
  * 基础订单装饰器
@@ -41,19 +41,19 @@ class BaseDecorator implements DecoratorInterface
      */
     public function boot()
     {
-        $order['order_sn']      = Helper::builderOrderSn();
+        $order['order_sn']      = HelperOrder::builderOrderSn();
         $order_goods =  [];
         foreach( $this->cart as $cart) {
             $detail = array_merge($cart, [
-                'price' => Helper::formatPrice($cart['price']),
-                'final_price' => Helper::formatPrice($cart['price']),
-                'total_price' => Helper::formatPrice(($cart['price'] * $cart['num'])),
+                'price' => HelperOrder::formatPrice($cart['price']),
+                'final_price' => HelperOrder::formatPrice($cart['price']),
+                'total_price' => HelperOrder::formatPrice(($cart['price'] * $cart['num'])),
                 'coupon_price' => 0,
-                'final_total_price' => Helper::formatPrice(($cart['price'] * $cart['num']))
+                'final_total_price' => HelperOrder::formatPrice(($cart['price'] * $cart['num']))
             ]);
             $order_goods[] = $detail;
         }
-        $order['total_price']   = Arrays::sumArrayWithPrice($order_goods, 'total_price');
+        $order['total_price']   = HelperArray::sumArrayWithPrice($order_goods, 'total_price');
         $order['delivery_price'] = 0;
         $order['coupon_price'] = 0;
         $order['final_total_price'] = $order['total_price'];

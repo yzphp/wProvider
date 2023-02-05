@@ -1,9 +1,9 @@
 <?php
 namespace wProvider\order\decorators;
 
-use cncoders\helper\Helper;
 use wProvider\order\DecoratorException;
 use wProvider\order\interfaces\DecoratorInterface;
+use wProvider\Tool\HelperOrder;
 
 class CouponDecorator implements DecoratorInterface
 {
@@ -44,30 +44,30 @@ class CouponDecorator implements DecoratorInterface
         if ($order['total_price'] < $this->coupon['coupon_where']) {
             throw new DecoratorException('优惠券不满足使用条件');
         }
-        $order['final_total_price'] = Helper::formatPrice(
+        $order['final_total_price'] = HelperOrder::formatPrice(
             ($order['final_total_price'] - $this->coupon['coupon_price'])
         );
         $order['coupon_price'] = $this->coupon['coupon_price'];
          if (true === $this->hasShare) {
             //剩余优惠金额
             $suplurs_price          = $this->coupon['coupon_price'];
-            $order['coupon_price']  = Helper::formatPrice($this->coupon['coupon_price']);
+            $order['coupon_price']  = HelperOrder::formatPrice($this->coupon['coupon_price']);
             $count                  = count($order['detail']);
             for($i=0; $i < $count; $i++) {
                 if ($i+1 == $count) {
                     $order['detail'][$i]['coupon_price'] = $suplurs_price;
-                    $order['detail'][$i]['final_total_price'] = Helper::formatPrice(
+                    $order['detail'][$i]['final_total_price'] = HelperOrder::formatPrice(
                         ($order['detail'][$i]['total_price'] - $order['detail'][$i]['coupon_price'])
                     );
                     $suplurs_price = 0;
                 } else {
-                    $order['detail'][$i]['coupon_price'] = Helper::formatPrice(
+                    $order['detail'][$i]['coupon_price'] = HelperOrder::formatPrice(
                         ( ($order['detail'][$i]['total_price'] / $order['total_price']) * $this->coupon['coupon_price'] )
                     );
-                    $order['detail'][$i]['final_total_price'] = Helper::formatPrice(
+                    $order['detail'][$i]['final_total_price'] = HelperOrder::formatPrice(
                         ($order['detail'][$i]['total_price'] - $order['detail'][$i]['coupon_price'])
                     );
-                    $suplurs_price = Helper::formatPrice( ($suplurs_price - $order['detail'][$i]['coupon_price']));
+                    $suplurs_price = HelperOrder::formatPrice( ($suplurs_price - $order['detail'][$i]['coupon_price']));
                 }
 
             }
