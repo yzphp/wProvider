@@ -1,8 +1,8 @@
 <?php
-namespace wProvider\order\decorators;
+namespace wProvider\mall\order\decorators;
 
-use wProvider\order\DecoratorException;
-use wProvider\order\interfaces\DecoratorInterface;
+use wProvider\mall\order\DecoratorException;
+use wProvider\mall\order\interfaces\DecoratorInterface;
 use wProvider\Tool\HelperOrder;
 
 class CouponDecorator implements DecoratorInterface

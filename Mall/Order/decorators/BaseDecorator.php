@@ -1,14 +1,14 @@
 <?php
-namespace wProvider\order\decorators;
+namespace wProvider\mall\order\decorators;
 
-use wProvider\order\interfaces\DecoratorInterface;
+use wProvider\mall\order\interfaces\DecoratorInterface;
 use wProvider\Tool\HelperArray;
 use wProvider\Tool\HelperOrder;
 
 /**
  * 基础订单装饰器
  * Class BaseDecorator
- * @package wProvider\order\decorators
+ * @package wProvider\mall\order\decorators
  */
 class BaseDecorator implements DecoratorInterface
 {
