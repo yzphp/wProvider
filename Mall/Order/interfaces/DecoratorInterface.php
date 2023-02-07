@@ -1,5 +1,5 @@
 <?php
-namespace wProvider\order\interfaces;
+namespace wProvider\mall\order\interfaces;
 
 interface DecoratorInterface
 {

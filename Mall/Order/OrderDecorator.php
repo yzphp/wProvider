@@ -1,8 +1,8 @@
 <?php
-namespace wProvider\order;
+namespace wProvider\mall\order;
 
-use wProvider\order\interfaces\DecoratorInterface;
-use wProvider\order\interfaces\OrderInterface;
+use wProvider\mall\order\interfaces\DecoratorInterface;
+use wProvider\mall\order\interfaces\OrderInterface;
 
 class OrderDecorator
 {

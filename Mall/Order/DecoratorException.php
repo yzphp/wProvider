@@ -1,5 +1,5 @@
 <?php
-namespace wProvider\order;
+namespace wProvider\mall\order;
 
 use Throwable;
 

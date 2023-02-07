@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Tool/HelperOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mall/Cart/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mall/Cart/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mall/Cart/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mall/Cart/Facade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mall/Cart/Item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/decorators/BaseDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Order/decorators/BaseDecorator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/decorators/CouponDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Order/decorators/CouponDecorator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/decorators/DeliveryDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Order/decorators/DeliveryDecorator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/HelperArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/DecoratorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/DecoratorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/OrderDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/OrderDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/decorators/BaseDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/BaseDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/decorators/CouponDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/CouponDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/decorators/DeliveryDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/DeliveryDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/interfaces/DecoratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/interfaces/DecoratorInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +40,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mall/Cart" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Mall\Cart" />
       <recent name="D:\wamp64\www\wProvider\Tool" />
       <recent name="D:\wamp64\www\wProvider\Order" />
       <recent name="D:\wamp64\www\wProvider" />
       <recent name="D:\wamp64\www\wProvider\tests" />
-      <recent name="D:\wamp64\www\wProvider\Common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Mall\Order" />
       <recent name="D:\wamp64\www\wProvider\Wechat\Ecommerce" />
       <recent name="D:\wamp64\www\wProvider\lib" />
     </key>
@@ -111,7 +118,11 @@
       <workItem from="1675278011638" duration="11194000" />
       <workItem from="1675403460825" duration="1183000" />
       <workItem from="1675525783289" duration="588000" />
-      <workItem from="1675570842336" duration="2778000" />
+      <workItem from="1675570842336" duration="3382000" />
+      <workItem from="1675654597984" duration="1431000" />
+      <workItem from="1675755755097" duration="626000" />
+      <workItem from="1675762946034" duration="676000" />
+      <workItem from="1675763717244" duration="1185000" />
     </task>
     <servers />
   </component>
