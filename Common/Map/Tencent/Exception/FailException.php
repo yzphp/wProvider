@@ -1,6 +1,6 @@
 <?php
 
-namespace vProvider\Map\TencentMapApi\Exception;
+namespace wProvider\Map\TencentMapApi\Exception;
 
 /**
  * 基础错误信息异常
