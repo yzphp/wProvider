@@ -26,7 +26,8 @@
             "wProvider\\Tool\\": "Tool",
             "wProvider\\Common\\": "Common",
             "wProvider\\Sms\\": "Common/Sms",
-            "wProvider\\Express\\": "Common/Express"
+            "wProvider\\Express\\": "Common/Express",
+            "wProvider\\TencentMapApi\\": "Common/Map/Tencent"
         }
     }
 }
