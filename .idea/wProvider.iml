@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Common/Express" isTestSource="false" packagePrefix="wProvider\Express\" />
       <sourceFolder url="file://$MODULE_DIR$/Common/Sms" isTestSource="false" packagePrefix="wProvider\Sms\" />
       <sourceFolder url="file://$MODULE_DIR$/Tool" isTestSource="false" packagePrefix="wProvider\Tool\" />
-      <sourceFolder url="file://$MODULE_DIR$/Common/Map/Tencent" isTestSource="false" packagePrefix="wProvider\Tencent\" />
+      <sourceFolder url="file://$MODULE_DIR$/Common/Map/Tencent" isTestSource="false" packagePrefix="wProvider\Map\Tencent\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
