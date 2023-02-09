@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Map\TencentMapApi;
+namespace wProvider\Map\Tencent;
 
 use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
 use JetBrains\PhpStorm\Internal\TentativeType;

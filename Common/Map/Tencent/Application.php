@@ -1,8 +1,8 @@
 <?php
 
-namespace wProvider\Map\TencentMapApi;
+namespace wProvider\Map\Tencent;
 
-use wProvider\Map\TencentMapApi\Exception\FailException;
+use wProvider\Map\Tencent\Exception\FailException;
 use GuzzleHttp\Client;
 
 /**

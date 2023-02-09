@@ -1,6 +1,6 @@
 <?php
 
-namespace wProvider\Map\TencentMapApi;
+namespace wProvider\Map\Tencent;
 
 use GuzzleHttp\Exception\GuzzleException;
 
