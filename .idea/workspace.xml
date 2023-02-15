@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Tool/HelperCompress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/Mini/Express.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Spu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +42,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wechat" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider\Wechat" />
+      <recent name="D:\wamp64\www\wProvider\Wechat\Mini" />
       <recent name="D:\wamp64\www\wProvider\Tool" />
       <recent name="D:\wamp64\www\wProvider" />
       <recent name="D:\wamp64\www\wProvider\Common\Map\Tencent" />
-      <recent name="D:\wamp64\www\wProvider\Mall\Cart" />
-      <recent name="D:\wamp64\www\wProvider\Order" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\wProvider\Mall\Order" />
@@ -120,7 +132,12 @@
       <workItem from="1675878070757" duration="577000" />
       <workItem from="1675921862548" duration="593000" />
       <workItem from="1675950614201" duration="3736000" />
-      <workItem from="1676003230435" duration="652000" />
+      <workItem from="1676003230435" duration="1397000" />
+      <workItem from="1676120984301" duration="1990000" />
+      <workItem from="1676298244067" duration="592000" />
+      <workItem from="1676386524539" duration="593000" />
+      <workItem from="1676442004908" duration="1213000" />
+      <workItem from="1676478263398" duration="176000" />
     </task>
     <servers />
   </component>

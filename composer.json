@@ -27,7 +27,9 @@
             "wProvider\\Common\\": "Common",
             "wProvider\\Sms\\": "Common/Sms",
             "wProvider\\Express\\": "Common/Express",
-            "wProvider\\Map\\Tencent\\": "Common/Map/Tencent"
+            "wProvider\\Map\\Tencent\\": "Common/Map/Tencent",
+            "wProvider\\Wechat\\WeMini\\": "Wechat/WeMini",
+            "wProvider\\Wechat\\WeShop\\": "Wechat/WeShop"
         }
     }
 }

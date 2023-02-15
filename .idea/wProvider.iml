@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Common/Sms" isTestSource="false" packagePrefix="wProvider\Sms\" />
       <sourceFolder url="file://$MODULE_DIR$/Tool" isTestSource="false" packagePrefix="wProvider\Tool\" />
       <sourceFolder url="file://$MODULE_DIR$/Common/Map/Tencent" isTestSource="false" packagePrefix="wProvider\Map\Tencent\" />
+      <sourceFolder url="file://$MODULE_DIR$/Wechat/WeMini" isTestSource="false" packagePrefix="wProvider\Wechat\WeMini\" />
+      <sourceFolder url="file://$MODULE_DIR$/Wechat/WeShop" isTestSource="false" packagePrefix="wProvider\Wechat\WeShop\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
