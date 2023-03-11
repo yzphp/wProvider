@@ -24,9 +24,7 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "classmap": [
-            "We.php"
-        ],
+        
         "psr-4": {
             "wProvider\\Tool\\": "Tool",
             "wProvider\\Common\\": "Common",
