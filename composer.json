@@ -11,7 +11,8 @@
         "电商收付通"
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "zoujingli/wechat-developer": "^v1.2.38||dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -22,6 +23,9 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
+        "classmap": [
+            "We.php"
+        ],
         "psr-4": {
             "wProvider\\Tool\\": "Tool",
             "wProvider\\Common\\": "Common",

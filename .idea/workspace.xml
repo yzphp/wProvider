@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/Wechat/Mini/Express.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Aftersale.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Apply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Coupon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Delivery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Shop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wechat/WeShop/Spu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wProvider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wProvider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/We.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include.php" beforeDir="false" afterPath="$PROJECT_DIR$/include.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +18,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/include.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/We.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Order.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Spu.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/composer.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/Express/companies.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/Mini/Express.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Account.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Coupon.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Delivery.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Fl7gcXR4Bs2Bz3ZxrIe3DRxM8g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,15 +44,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Wechat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\wProvider" />
       <recent name="D:\wamp64\www\wProvider\Wechat" />
       <recent name="D:\wamp64\www\wProvider\Wechat\Mini" />
       <recent name="D:\wamp64\www\wProvider\Tool" />
-      <recent name="D:\wamp64\www\wProvider" />
       <recent name="D:\wamp64\www\wProvider\Common\Map\Tencent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -137,7 +139,33 @@
       <workItem from="1676298244067" duration="592000" />
       <workItem from="1676386524539" duration="593000" />
       <workItem from="1676442004908" duration="1213000" />
-      <workItem from="1676478263398" duration="176000" />
+      <workItem from="1676478263398" duration="1711000" />
+      <workItem from="1676532994435" duration="592000" />
+      <workItem from="1676619154719" duration="589000" />
+      <workItem from="1676696764564" duration="592000" />
+      <workItem from="1676730728833" duration="2795000" />
+      <workItem from="1676827802993" duration="595000" />
+      <workItem from="1676875343720" duration="1185000" />
+      <workItem from="1676919242892" duration="591000" />
+      <workItem from="1676960025392" duration="594000" />
+      <workItem from="1677030265429" duration="593000" />
+      <workItem from="1677063726060" duration="586000" />
+      <workItem from="1677126800603" duration="592000" />
+      <workItem from="1677300391659" duration="593000" />
+      <workItem from="1677340823429" duration="594000" />
+      <workItem from="1677345810895" duration="590000" />
+      <workItem from="1677427160480" duration="592000" />
+      <workItem from="1677518070899" duration="590000" />
+      <workItem from="1677654672884" duration="590000" />
+      <workItem from="1677717097162" duration="595000" />
+      <workItem from="1677814940548" duration="2396000" />
+      <workItem from="1677907614152" duration="595000" />
+      <workItem from="1677991739721" duration="593000" />
+      <workItem from="1678065045382" duration="595000" />
+      <workItem from="1678237079084" duration="594000" />
+      <workItem from="1678414631506" duration="594000" />
+      <workItem from="1678500984813" duration="594000" />
+      <workItem from="1678519423242" duration="1562000" />
     </task>
     <servers />
   </component>
