@@ -11,11 +11,11 @@
 
 namespace wProvider\Sms\Gateways;
 
-use Sms\Contracts\MessageInterface;
-use Sms\Contracts\PhoneNumberInterface;
-use Sms\Exceptions\GatewayErrorException;
-use Sms\Support\Config;
-use Sms\Traits\HasHttpRequest;
+use wProvider\Sms\Contracts\MessageInterface;
+use wProvider\Sms\Contracts\PhoneNumberInterface;
+use wProvider\Sms\Exceptions\GatewayErrorException;
+use wProvider\Sms\Support\Config;
+use wProvider\Sms\Traits\HasHttpRequest;
 
 /**
  * Class YuntongxunGateway.

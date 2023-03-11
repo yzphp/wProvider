@@ -2,10 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662d5a6c-00b7-4f5c-9d28-7244cae45603" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/We.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Contracts/ProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Contracts/ProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/InquiryErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InquiryErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Exceptions/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Exceptions/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/AliyunConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/AliyunConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/JuheConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/JuheConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/Kd100ConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/Kd100ConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/KdniaoConfigurationConstant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/KdniaoConfigurationConstant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Interfaces/LogisticsStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Interfaces/LogisticsStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/AbstractProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/AbstractProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Aliyun.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Aliyun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Juhe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Juhe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Kd100.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Providers/Kdniao.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Providers/Kdniao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Traits/HasAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Traits/HasAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Express/Traits/HasHttpRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Express/Traits/HasHttpRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Contracts/GatewayInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Contracts/GatewayInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Gateways/YunzhixunGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Gateways/YunzhixunGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Gateways/ZzyunGateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Gateways/ZzyunGateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Messenger.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Messenger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/PhoneNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Strategies/OrderStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Strategies/OrderStrategy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Sms/Strategies/RandomStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Sms/Strategies/RandomStrategy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Cart/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Cart/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Cart/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Cart/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Cart/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Cart/Facade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Cart/Facade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Cart/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Cart/Item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/DecoratorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/DecoratorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/OrderDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/OrderDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/decorators/BaseDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/BaseDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/decorators/CouponDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/CouponDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/decorators/DeliveryDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/decorators/DeliveryDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mall/Order/interfaces/DecoratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mall/Order/interfaces/DecoratorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperCommon.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperCommon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperDateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperDateTime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperImg.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperImg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperSpell.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperSpell.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperString.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperString.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperValidate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperValidate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/HelperZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/HelperZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/We.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include.php" beforeDir="false" afterPath="$PROJECT_DIR$/include.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +69,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/include.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/We.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Order.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Spu.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/composer.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/Express/companies.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/Mini/Express.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Account.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Coupon.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Wechat/WeShop/Delivery.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Fl7gcXR4Bs2Bz3ZxrIe3DRxM8g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,7 +205,8 @@
       <workItem from="1678237079084" duration="594000" />
       <workItem from="1678414631506" duration="594000" />
       <workItem from="1678500984813" duration="594000" />
-      <workItem from="1678519423242" duration="1562000" />
+      <workItem from="1678519423242" duration="2157000" />
+      <workItem from="1678551431126" duration="813000" />
     </task>
     <servers />
   </component>

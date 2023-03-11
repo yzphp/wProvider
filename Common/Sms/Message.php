@@ -11,8 +11,10 @@
 
 namespace wProvider\Sms;
 
-use Sms\Contracts\GatewayInterface;
-use Sms\Contracts\MessageInterface;
+
+
+use wProvider\Sms\Contracts\GatewayInterface;
+use wProvider\Sms\Contracts\MessageInterface;
 
 /**
  * Class Message.

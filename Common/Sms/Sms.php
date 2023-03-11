@@ -12,14 +12,14 @@
 namespace wProvider\Sms;
 
 use Closure;
-use Sms\Contracts\GatewayInterface;
-use Sms\Contracts\MessageInterface;
-use Sms\Contracts\PhoneNumberInterface;
-use Sms\Contracts\StrategyInterface;
-use Sms\Exceptions\InvalidArgumentException;
-use Sms\Gateways\Gateway;
-use Sms\Strategies\OrderStrategy;
-use Sms\Support\Config;
+use wProvider\Sms\Contracts\GatewayInterface;
+use wProvider\Sms\Contracts\MessageInterface;
+use wProvider\Sms\Contracts\PhoneNumberInterface;
+use wProvider\Sms\Contracts\StrategyInterface;
+use wProvider\Sms\Exceptions\InvalidArgumentException;
+use wProvider\Sms\Gateways\Gateway;
+use wProvider\Sms\Strategies\OrderStrategy;
+use wProvider\Sms\Support\Config;
 
 /**
  * Class EasySms.

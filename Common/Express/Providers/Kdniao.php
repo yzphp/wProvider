@@ -8,20 +8,22 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressProviders;
+namespace wProvider\Express\Providers;
 
-use ExpressExceptions\HttpException;
-use ExpressExceptions\InquiryErrorException;
-use ExpressInterfaces\KdniaoConfigurationConstant;
-use ExpressOrder;
-use ExpressTraits\HasHttpRequest;
+
+
+use wProvider\Express\Exceptions\HttpException;
+use wProvider\Express\Exceptions\InquiryErrorException;
+use wProvider\Express\Providers\AbstractProvider;
+use wProvider\Express\Traits\HasHttpRequest;
+use wProvider\Express\Interfaces\Kd100ConfigurationConstant;
 
 /**
  * Class Kdniao.
  *
  * @author Aliliin <PhperAli@Gmail.com>
  */
-class Kdniao extends AbstractProvider implements KdniaoConfigurationConstant
+class Kdniao extends AbstractProvider implements Kd100ConfigurationConstant
 {
     use HasHttpRequest;
 

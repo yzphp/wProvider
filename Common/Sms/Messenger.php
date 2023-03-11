@@ -11,9 +11,11 @@
 
 namespace wProvider\Sms;
 
-use Sms\Contracts\MessageInterface;
-use Sms\Contracts\PhoneNumberInterface;
-use Sms\Exceptions\NoGatewayAvailableException;
+
+
+use wProvider\Sms\Contracts\MessageInterface;
+use wProvider\Sms\Contracts\PhoneNumberInterface;
+use wProvider\Sms\Exceptions\NoGatewayAvailableException;
 
 /**
  * Class Messenger.

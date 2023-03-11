@@ -11,12 +11,14 @@
 
 namespace wProvider\Sms;
 
+use wProvider\Sms\Contracts\PhoneNumberInterface;
+
 /**
  * Class PhoneNumberInterface.
  *
  * @author overtrue <i@overtrue.me>
  */
-class PhoneNumber implements \Sms\Contracts\PhoneNumberInterface
+class PhoneNumber implements PhoneNumberInterface
 {
     /**
      * @var int

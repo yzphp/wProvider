@@ -11,7 +11,7 @@
 
 namespace wProvider\Express;
 
-use ExpressTraits\HasAttributes;
+use Express\Traits\HasAttributes;
 
 /**
  * Class Order.

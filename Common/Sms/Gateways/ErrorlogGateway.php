@@ -11,9 +11,9 @@
 
 namespace wProvider\Sms\Gateways;
 
-use Sms\Contracts\MessageInterface;
-use Sms\Contracts\PhoneNumberInterface;
-use Sms\Support\Config;
+use wProvider\Sms\Contracts\MessageInterface;
+use wProvider\Sms\Contracts\PhoneNumberInterface;
+use wProvider\Sms\Support\Config;
 
 /**
  * Class ErrorlogGateway.

@@ -11,7 +11,9 @@
 
 namespace wProvider\Sms\Strategies;
 
-use Sms\Contracts\StrategyInterface;
+
+
+use wProvider\Sms\Contracts\StrategyInterface;
 
 /**
  * Class RandomStrategy.

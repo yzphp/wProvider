@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressTraits;
+namespace wProvider\Express\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

@@ -9,11 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressProviders;
+namespace wProvider\Express\Providers;
 
-use ExpressContracts\ProviderInterface;
-use ExpressExceptions\InvalidArgumentException;
-use ExpressInterfaces\LogisticsStatus;
+use wProvider\Express\Contracts\ProviderInterface;
+use wProvider\Express\Interfaces\LogisticsStatus;
 
 /**
  * Class Base.

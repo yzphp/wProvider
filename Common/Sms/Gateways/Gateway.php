@@ -11,8 +11,8 @@
 
 namespace wProvider\Sms\Gateways;
 
-use Sms\Contracts\GatewayInterface;
-use Sms\Support\Config;
+use wProvider\Sms\Contracts\GatewayInterface;
+use wProvider\Sms\Support\Config;
 
 /**
  * Class Gateway.

@@ -9,13 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressProviders;
+namespace wProvider\Express\Providers;
 
-use ExpressExceptions\HttpException;
-use ExpressExceptions\InquiryErrorException;
-use ExpressInterfaces\AliyunConfigurationConstant;
-use ExpressOrder;
-use ExpressTraits\HasHttpRequest;
+
+use wProvider\Express\Order;
+use wProvider\Express\Exceptions\HttpException;
+use wProvider\Express\Exceptions\InquiryErrorException;
+use wProvider\Express\Interfaces\AliyunConfigurationConstant;
+use wProvider\Express\Traits\HasHttpRequest;
 
 /**
  * Class Aliyun.

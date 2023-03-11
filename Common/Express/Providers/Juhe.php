@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressProviders;
+namespace wProvider\Express\Providers;
 
-use ExpressExceptions\HttpException;
-use ExpressExceptions\InquiryErrorException;
-use ExpressExceptions\InvalidArgumentException;
-use ExpressInterfaces\JuheConfigurationConstant;
-use ExpressOrder;
-use ExpressTraits\HasHttpRequest;
+use Express\Exceptions\HttpException;
+use Express\Exceptions\InquiryErrorException;
+use Express\Exceptions\InvalidArgumentException;
+use Express\Interfaces\JuheConfigurationConstant;
+use Express\Order;
+use Express\Traits\HasHttpRequest;
 
 /**
  * Class Juhe.

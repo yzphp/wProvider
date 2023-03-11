@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace wProvider\ExpressProviders;
+namespace wProvider\Express\Providers;
 
-use ExpressExceptions\HttpException;
-use ExpressExceptions\InquiryErrorException;
-use ExpressInterfaces\Kd100ConfigurationConstant;
-use ExpressOrder;
-use ExpressTraits\HasHttpRequest;
+use Express\Exceptions\HttpException;
+use Express\Exceptions\InquiryErrorException;
+use Express\Interfaces\Kd100ConfigurationConstant;
+use Express\Order;
+use Express\Traits\HasHttpRequest;
 
 /**
  * Class Kd100.
