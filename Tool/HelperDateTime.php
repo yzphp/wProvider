@@ -6,6 +6,8 @@
  * Copyright (c) 2016~2099 http://www.wycto.com All rights reserved.
  */
 namespace wProvider\Tool;
+use DateTime;
+use think\exception\InvalidArgumentException;
 
 class HelperDateTime
 {

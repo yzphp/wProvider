@@ -116,4 +116,53 @@ class HelperCommon
         }
         return $hash;
     }
+
+    /**
+     * 比较两个版本号的大小
+     * @param $version1
+     * @param $version2
+     * @return int
+     */
+    public static function compareVersion($version1, $version2)
+    {
+        $add = function($str, $length){return str_pad($str,$length,"0");};
+        $reg = function($str){return preg_replace('/[^0-9]/','',$str);};
+        $length = strlen($reg($version1))>strlen($reg($version2)) ? strlen($reg($version1)): strlen($reg($version2));
+        $v1 = $add($reg($version1),$length);
+        $v2 = $add($reg($version2),$length);
+        if($v1 == $v2) {
+            return 0;
+        }else{
+            return $v1>$v2?1:-1;
+        }
+    }
+    /**
+     * 生成UUID
+     * @param bool $strtoupper 是否转换为大小写输出
+     * @param string $spilt 链接字符 false表示不连接
+     * @return string
+     * @throws \Exception
+     */
+    public static function uuid( $strtoupper = false , $spilt = '-')
+    {
+        $str = uniqid('',true);
+        $arr = explode('.',$str);
+        $str = base_convert($arr[0],16,36) .
+            base_convert($arr[1],10,36).
+            base_convert(bin2hex(random_bytes(5)),16,36);
+        $len = 24;
+        $str = substr($str,0,$len);
+        if(strlen($str) < $len){
+            $mt = base_convert(bin2hex(random_bytes(5)),16,36);
+            $str = $str.substr($mt,0,$len - strlen($str));
+        }
+        if ( $spilt ) {
+            $str = substr($str, 0, 5) . $spilt .
+                substr($str, 5, 5) . $spilt .
+                substr($str, 15, 5) . $spilt .
+                substr($str, 20, $len);
+        }
+        return $strtoupper ? strtoupper($str) : $str;
+    }
+
 }
